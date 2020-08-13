@@ -50,7 +50,7 @@ nav{
 	height: 1000px;
 	position: absolute;
 	top: 50%;
-	left: -10;
+	left: 0;
 	transform: translateY(-50%);
 }
 
@@ -61,6 +61,42 @@ nav{
 	top: 0%;
 	left: 0;
 	border-radius: 50%;
-	background: rgb(255, 255, 255)
+	background: rgba(204, 102, 255, 1)
 }
 
+.feature img{
+	width: 70%;
+
+}
+
+.feature{
+	position: absolute;
+	display: flex;
+	color: rgb(255, 255, 255)
+}
+
+.feature div{
+	margin-left: 30px;
+}
+
+.feature div P{
+	margin-top: 8px;
+}
+
+.one{
+	top: 450px;
+	right: 50px;
+}
+.two{
+	top: 150px;
+	left: 350px
+}
+.three{
+	bottom: 450px;
+	left:50px;
+
+}
+.four{
+	bottom: 150px;
+	right: 350px;
+}
